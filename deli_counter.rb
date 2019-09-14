@@ -26,5 +26,6 @@ end
       puts "There is nobody waiting in line!"
     else puts "Currently serving #{line.shift}."
   end
+  now_serving(katz_deli)
 end
   
