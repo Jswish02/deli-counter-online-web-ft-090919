@@ -21,4 +21,7 @@ end
  end
   take_a_number(katz_deli, "Ada")
   
+  def now_serving(line)
+    if line == []
+      puts "There is nobody waiting in line!"
   
